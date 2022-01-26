@@ -15,6 +15,9 @@
         <remove-project name="LineageOS/android_hardware_lineage_interfaces" />
 	<project name="sdm870/android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="github" revision="lineage-19.0" />
 
+        <remove-project name="LineageOS/android_device_lineage_sepolicy" />
+	<project name="sdm870/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="github" revision="lineage-19.0" />
+	
         <project name="LineageOS/android_vendor_qcom_opensource_wfd-commonsys" path="vendor/qcom/opensource/wfd-commonsys" remote="github" revision="lineage-18.1" />
 
         <remove-project name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
