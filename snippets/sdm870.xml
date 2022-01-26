@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="gitlab"
+        fetch="https://gitlab.com/" />
+
+	<project name="sdm870/android_device_xiaomi_alioth" path="device/xiaomi/alioth" remote="github" revision="lineage-19.0" />
+	<project name="sdm870/android_device_xiaomi_sm8250-common" path="device/xiaomi/sm8250-common" remote="github" revision="lineage-19.0" />
+	<project name="sdm870/android_kernel_xiaomi_sm8250" path="kernel/xiaomi/sm8250" remote="github" revision="lineage-19.0" />
+	<project name="sdm870/android_vendor_xiaomi" path="vendor/xiaomi" remote="gitlab" revision="lineage-19.0" />
+	<project name="sdm870/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-19.0" />
+
+        <remove-project name="platform/hardware/nxp/nfc" />
+	<project name="sdm870/android_hardware_nxp_nfc" path="hardware/nxp/nfc" remote="github" revision="lineage-19.0" />
+
+        <remove-project name="LineageOS/android_hardware_lineage_interfaces" />
+	<project name="sdm870/android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="github" revision="lineage-19.0" />
+
+        <project name="LineageOS/android_vendor_qcom_opensource_wfd-commonsys" path="vendor/qcom/opensource/wfd-commonsys" remote="github" revision="lineage-18.1" />
+
+        <remove-project name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
+        <project name="sdm870/android_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="github" revision="lineage-19.0" />
+        <remove-project name="LineageOS/android_vendor_qcom_opensource_dataservices" />
+        <project name="sdm870/android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="github" revision="lineage-19.0" />
+        <project name="sdm870/android_vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="github" revision="lineage-19.0" />
+        <remove-project name="LineageOS/android_vendor_qcom_opensource_power" />
+        <project name="sdm870/android_vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="github" revision="lineage-19.0" />
+        <remove-project name="LineageOS/android_vendor_qcom_opensource_usb" />
+        <project name="sdm870/android_vendor_qcom_opensource_usb" path="vendor/qcom/opensource/usb" remote="github" revision="lineage-19.0" />
+
+        <project name="sdm870/android_hardware_qcom_audio" path="hardware/qcom-caf/sm8250/audio" remote="github" revision="lineage-19.0-caf-sm8250" />
+        <project name="sdm870/android_hardware_qcom_display" path="hardware/qcom-caf/sm8250/display" remote="github" revision="lineage-19.0-caf-sm8250" />
+        <project name="sdm870/android_hardware_qcom_media" path="hardware/qcom-caf/sm8250/media" remote="github" revision="lineage-19.0-caf-sm8250" />
+</manifest>
